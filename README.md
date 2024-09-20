@@ -1,22 +1,31 @@
-# create-svelte
+# night-skies ✨
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+<p align="center">
+Starry-sprinkled night skies with shooting stars and lofi beats coded with Sveltekit + Threlte (three.js) for the 3D environment.
+<p>
 
-## Creating a project
+![](night-skies.png)
 
-If you're seeing this, you've probably already done this step. Congrats!
+> https://x.com/_jzaleta/status/1837002679442174433
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Installing
 
-# create a new project in my-app
-npm create svelte@latest my-app
+### Prerequisites
+
+Things you'll want installed:
+
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org/en) or [nvm](https://github.com/nvm-sh/nvm)
+
+#### 1. First clone my git repo in a terminal and install dependencies
+
+```
+git clone https://github.com/jzaleta/night-skies.git
+cd night-skies
+npm install
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+#### 2. Then start the local dev server
 
 ```bash
 npm run dev
@@ -25,14 +34,10 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
+## Contributing
 
-To create a production version of your app:
+This project **_isn't really open to big contributions_** since it's personal, but if you spot something like a spelling mistake, a visual bug or other kinds of weird things happening, please feel free to create an issue.
 
-```bash
-npm run build
-```
+## License
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+This project is made open-source with the [MIT License](LICENSE).
